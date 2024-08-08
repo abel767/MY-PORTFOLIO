@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    
+</head>
+<body>
+    <header class="top-content" id="home">
+        <nav>
+            <ul class='nav-bar'>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me </a></li>
+                    <li><a href="#projects">My works</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#resume">Resume </a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+     
+        <div class="image-background">
+            <div class="image-wrap">
+                <img src="images/me.jpg" alt="Background Image">
+            </div>
+            <div class="image-overlay">
+                <h5>Hi,<br> I am Abel Thomas</h5>
+            </div>
+        </div>
+
+    </header>
+        
+
+    <section class="about-sec" id="about">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+              <h1 class="display-4 fw-bold lh-1 ">Who I Am...</h1>
+              <p class="lead my-4 py-5">i, I’m Abel Thomas, a passionate web developer with a knack for creating dynamic and responsive websites. 
+                With a strong foundation in HTML,
+                CSS, JavaScript, and Bootstrap, I love turning ideas into reality throug
+                h code. My journey into web development began with a curiosity for how websites work, and it has since evolved into a fulfilling career</p>
+                <button class="btn" type="button"><a href="#contact">Contact Me</a></button>
+            </div>
+            <div class="col-lg-4 col-sm-12 offset-lg-1 p-0 px-5 overflow-hidden shadow-lg">
+                <img class="rounded-lg-3" src="images/mine.jpg" alt="" width="720">
+            </div>
+          </div>
+    </section>
+
+
+    <section class="works-sec" id="projects">
+        <div class="container px-4 py-5 works" id="custom-cards">
+            <h2 class="card-heading pb-2 border-bottom text-center ">Dive into My Works</h2>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <a href="https://abel767.github.io/Visual-Studio-Code---Clone/" target="_blank">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  style="background-image: url('images/vscode2_1.avif');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text">Visual Studio Code</h3>
+                  </div>
+                </div>
+                </a>
+              </div>
+        
+              <div class="col">
+                <a href="https://abel767.github.io/Netflix-clone/" target="_blank">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" href=""  style="background-image: url('images/netflix.avif');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Netflix</h3>
+                  </div>
+                </div>
+                </a>
+              </div>
+        
+              <div class="col">
+                <a href="https://abel767.github.io/Zomato-clone/" target="_blank">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/zomato.avif');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Zomato</h3>
+                  </div>
+                </div>
+                 </a>
+              </div>
+
+              <div class="col">
+                <a href="https://abel767.github.io/BMW-INDIA---CLONE/" target="_blank">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/bmw.avif');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">BMW</h3>
+                  </div>
+                </div>
+                 </a>
+              </div>
+            </div>
+          </div>
+     </section>
+
+
+
+     <section class=" py-3 py-md-5 py-xl-8 services my-5" id="services">
+        <div class="container overflow-hidden mt-5">
+          <div class="row gy-4 gy-md-5 gy-lg-0 align-items-center">
+            <div class="col-12 col-lg-5">
+              <div class="row">
+                <div class="col-12 col-xl-11">
+                  <h2 class="display-5 mb-3 mb-xl-4">Services Provided</h2>
+                  <p class="mb-3 mb-xl-4">Transforming your digital dreams into reality with cutting-edge web development, sleek designs, and seamless user experiences.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7 overflow-hidden">
+              <div class="row gy-4">
+                <div class="col-12 col-sm-6">
+                  <div class="card border-0 border-bottom border-primary shadow-sm bg-dark">
+                    <div class="card-body text-center p-1 p-xxl-5">
+                        <img src="images/icons8-web-design-100.png" alt="">
+                      <h4 class="mb-4">Web Design</h4>
+                      <p class="mb-4 text-secondary">I specialize in crafting visually appealing and user-centric website designs. My expertise lies in creating compelling layouts, selecting harmonious color palettes, and incorporating effective typography to enhance user experience.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border-0 border-bottom border-primary shadow-sm bg-dark">
+                    <div class="card-body text-center p-4 p-xxl-5">
+                        <img src="images/icons8-web-development-96.png" alt="">
+                      <h4 class="mb-4">Web Development</h4>
+                      <p class="mb-4 text-secondary">With a strong foundation in HTML, CSS, and JavaScript, I transform designs into functional websites. My focus is on building responsive and interactive web applications that deliver exceptional performance across different devices.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border-0 border-bottom border-primary shadow-sm bg-dark">
+                    <div class="card-body text-center p-4 p-xxl-5">
+                        <img src="images/icons8-responsive-design-96.png" alt="">
+                      <h4 class="mb-4">Responsive Design</h4>
+                      <p class="mb-4 text-secondary">I create websites that seamlessly adapt to various screen sizes, ensuring optimal viewing and usability on desktops, tablets, and smartphones. My approach prioritizes a consistent user experience across different platforms.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border-0 border-bottom border-primary shadow-sm bg-dark">
+                    <div class="card-body text-center p-4 p-xxl-5">
+                        <img src="images/icons8-web-design-96.png" alt="">
+                      <h4 class="mb-4">UI/UX Design</h4>
+                      <p class="mb-4 text-secondary">Designing intuitive and user-friendly interfaces that enhance the overall user experience. This involves creating wireframes, prototypes, and mockups to ensure the design meets user needs and expectations.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section class="resume-sec" id="resume">
+        <div class="col-md-6 resume">
+          <div class="h-100 p-5 text-bg-dark mt-5 resume">
+            <h2>Grab My Resume</h2>
+            <a href="resume/ABEL Thomas.pdf" download="Resume">
+            <button class="btn" type="button">Download</button>
+          </a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="contact-me-sec" id="contact">
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center contact-header">
+          <div class="col-md-6 p-lg-5 mx-auto my-5">
+            <h1 class="display-3 fw-bold contact-head">Let’s Collaborate!</h1>
+            <h3 class="fw-normal text-muted mb-3">Intrigued by my creations? Reach out and let’s bring your ideas to life. Drop me a message and let’s start something amazing together!</h3>
+            <div class="social mt-1">
+                <h1>Find Me On</h1>
+                <a href="https://www.instagram.com/_abel_696?igsh=MWwxejFqbDRseDVi"><img src="images/social medias/instagram.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/abel-thomas-60193b27b/"><img src="images/social medias/linkedin.svg" alt=""></a>
+              </div>
+          </div>
+          <div class="product-device shadow-sm d-none d-md-block"></div>
+          <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+          <div class="col-md-4 contact-image">
+            <img src="images/contactimage2.png" alt="Contact Image" class="img-fluid contact-image">
+          </div>
+        </div>
+        <div class="bg-dark shadow-sm mx-auto contact-box resize-contact-box" style="width: 60%; height: 550px; border-radius: 21px 21px 0 0;">
+          <form id="submit-form">
+            <div class="container p-4">
+              <div class="input-group mb-3">
+                <label for="contact-name">Full Name</label>
+                <input type="text" id="contact-name" onkeyup="validateName()" placeholder="Enter your name" name="name" required>
+                <span id="name-error"></span>
+              </div>
+              <div class="input-group mb-3">
+                <label for="email">Email Id</label>
+                <input type="email" id="contact-email" placeholder="Enter Email" name="email" onkeyup="validateEmail()" required>
+                <span id="email-error"></span>
+              </div>
+              <div class="input-group mb-3">
+                <label for="email">Subject</label>
+                <input type="text" id="contact-subject" placeholder="Enter Subject" name="subject" onkeyup="validateSubject()" required>
+                <span id="subject-error"></span>
+              </div>
+              <div class="input-group mb-3">
+                <label for="message">Your Message</label>
+                <textarea id="contact-message" rows="5" placeholder="Enter your message" name="message" onkeyup="validateMessage()"></textarea>
+                <span id="message-error"></span>
+              </div>
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+
+        </div>
+
+      </section>
+      <script src="checked.js"></script>
+    <script src="close-menu.js"></script>
+    <script src="scroll.js"></script>
+    <script src="validation.js"></script>
+    <script src="submission.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
